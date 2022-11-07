@@ -51,13 +51,7 @@ class PriorityQueueSortedList :
 				print(tuple(x[::-1]))
 
 	def update(self, prioBaru, dataBaru):
-		if self.is_empty() is True:
-			print("Priority Queue Kosong")
-		else:
-			lst3 = []
-			for i in range(len(self._data)):
-				if self._data[i][1] == prioBaru:
-					self._data[i] = (dataBaru, prioBaru)
+		pass
 
 
 sortedList = PriorityQueueSortedList()
